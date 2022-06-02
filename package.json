@@ -1,6 +1,7 @@
 {
-  "name": "frontend-career-paths",
+  "name": "@serempre-frontend/frontend-career-paths",
   "version": "1.0.0",
+  "private": false,
   "description": "En este repositorio se encuentran los planes de carrera de:",
   "main": "index.js",
   "scripts": {
@@ -27,6 +28,7 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/github",
+    "@semantic-release/npm",
     "@semantic-release/git"
   ],
   "devDependencies": {
