@@ -20,7 +20,8 @@
   "homepage": "https://github.com/fcastillo-serempre/frontend-career-paths#readme",
   "release": {
     "branches": [
-      "main"
+      "main",
+      "drupal"
     ]
   },
   "plugins": [
