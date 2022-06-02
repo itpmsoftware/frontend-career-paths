@@ -1,0 +1,35 @@
+{
+  "name": "frontend-career-paths",
+  "version": "1.0.0",
+  "description": "En este repositorio se encuentran los planes de carrera de:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcastillo-serempre/frontend-career-paths.git"
+  },
+  "keywords": [],
+  "author": "Serempre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcastillo-serempre/frontend-career-paths/issues"
+  },
+  "homepage": "https://github.com/fcastillo-serempre/frontend-career-paths#readme",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/git"
+  ],
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}
